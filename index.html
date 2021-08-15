@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Password validation
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="#"> <input type="password" id="mypassword">
+            <i class="far fa-eye" id="eye" onclick="showtoggle()"></i>
+        </form>
+    </div>
+    <div class="message">
+        <i class="fasfa-times" id="numberIcon"></i>
+        <p class="password-contain" id="number">Must have numbers!</p>
+        <i class="fasfa-times" id="charIcon"></i>
+        <p class="password-contain" id="specialCHAR">Must have a special chair!</p>
+
+        <i class="fasfa-times" id="capitalIcon"></i>
+        <p class="password-contain" id="capital">A uppercase letter needed!</p>
+
+        <i class="fasfa-times" id="lengthIcon"></i>
+        <p class="password-contain" id="length">Should be at least 8 character!</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
